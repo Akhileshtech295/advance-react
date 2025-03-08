@@ -1,11 +1,13 @@
 import React from 'react'
-import MultipleUser from './04-forms/03-multiple-user';
 // import UseChallenge from './03-conditional-rendering/07-use-challenge';
 // import ToggleChallenge from './03-conditional-rendering/06-toggle-challenge';
 // import UseChalleng from './03-conditional-rendering/07-use-challenge';
 // import ControllsInput from './04-forms/01-controlls-input';
 // import PractInput from './04-forms/practice-input';
 // import UserChallenge from './04-forms/02-user-challenge';
+// import MultipleUser from './04-forms/03-multiple-user';
+// import OthreInputs from './04-forms/04-other-inputs';
+import UnControlInput from './04-forms/05-form-data';
 
 
 
@@ -22,7 +24,9 @@ const App = () => {
         {/* <UserChallenge/> */}
         {/* <PractInput/> */}
         {/* <UserChallenge/> */}
-        <MultipleUser/>
+        {/* <MultipleUser/> */}
+        {/* <OthreInputs/> */}
+        <UnControlInput/>
         
       </div>
     </main>
